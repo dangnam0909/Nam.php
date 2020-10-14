@@ -45,11 +45,11 @@
             <label>Number1:</label>
             <input type="text" name="number1" placeholder="Enter number 1" /></br>
             <select name='operation'>
-                <option <?php if($operation == 'plus') { echo 'selected';} ?> value="plus">+</option>
-                <option <?php if($operation == 'minus') { echo 'selected';} ?> value="minus">-</option>
-                <option <?php if($operation == 'multi') { echo 'selected';} ?> value="multi">*</option>
-                <option <?php if($operation == 'invalid') { echo 'selected';} ?> value="invalid">/</option>
-                <option <?php if($operation == 'divide') { echo 'selected';} ?> value="divide">^</option>
+                <option value="plus">+</option>
+                <option value="minus">-</option>
+                <option value="human">*</option>
+                <option value="invalid">/</option>
+                <option value="power">^</option>
             </select></br>
             <label>Number2:</label>
             <input type="text" name="number1" placeholder="Enter number 2" /></br>
